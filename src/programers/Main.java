@@ -3,6 +3,26 @@ package programers;
 public class Main {
     public static void main(String[] args) {
 
+                int answer = 0;
+                int num = 0;
+                int originNum = num;
+                while (num <= 1) {
+                    if (num % 2 == 0) {
+                        num /= 2;
+                    } else if (num == 1) {
+                        answer = 0
+                    }
+
+                }
+
+                return answer;
+            }
+        }
+
+
+
+
+
 
     }
 }
